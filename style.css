@@ -198,7 +198,7 @@ mat-img {
 .vid-title {
     margin-top: 5%;
 }
-#video {
+#video-box {
     width: 90%;
     height: auto;
     margin: auto;
@@ -226,7 +226,7 @@ iframe {
 }
 #features p {
     width: 100%;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     text-align: left;
     padding-left: 0.3125rem;
     border-left: 0.125rem solid #02022c;
