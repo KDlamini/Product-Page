@@ -26,7 +26,7 @@ hr {
     width: 100%;
     position: fixed;
     background-color: #740c74;
-    color: #d3d3d3;
+    color: #bebebe;
     display: grid;
     grid-template-columns: 8vw 20vw 1fr 30vw 8vw;
     grid-template-rows: 8vw;
@@ -63,19 +63,18 @@ header h1 {
     margin: auto 0;
     display: flex;
 }
-
 .nav-link {
+    text-decoration: none;
+}
+#nav-bar button {
     box-sizing: border-box;
     width: 10vw;
-    text-align: center;
+    border: none;
+    color: #bebebe;
+    background-color: inherit;
     font-size: 2vw;
 }
-.nav-link a {
-    text-decoration: none;
-    color: inherit;
-}
-.nav-link:hover {
-    font-family: monospace;
+#nav-bar button:hover {
     color: #02022c;
     font-weight: 37.5rem;
     cursor: pointer;
