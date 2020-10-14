@@ -65,7 +65,7 @@ hr {
 }
 header h1 {
     grid-area: heading;
-    font-size: 3vw;
+    font-size: 2vw;
     margin: auto;
 }
 #nav-bar {
